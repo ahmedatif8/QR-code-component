@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+.container .design{
+    text-align: center;
+    padding: 18px;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 1em;
+}
+.container img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+.container .text{
+    padding: 22px 0;
+}
+.container .text h2{
+    padding-bottom: 15px;
+    color:hsl(218, 44%, 22%);
+}
+.container .text p{
+    color: hsl(220, 15%, 55%);
+    margin: 0 2px;
+}
